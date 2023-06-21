@@ -17,7 +17,7 @@ namespace WebApplication1.Controllers
 
         public string Create(CustomerCreate customer)
         {
-            return $"Create customer, Name: {customer.Name}, Phone:{customer.Phone}, Email: {customer.Email}";
+            return $"Create customer..., Name: {customer.Name}, Phone:{customer.Phone}, Email: {customer.Email}";
         }
     }
 }
