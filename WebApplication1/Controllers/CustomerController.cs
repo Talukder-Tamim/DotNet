@@ -15,9 +15,10 @@ namespace WebApplication1.Controllers
             return "This is a customer list..";
         }
 
-        public string Create(CustomerCreate customer)
+        public IActionResult Create(CustomerCreate customer)
         {
-            return $"Create customer..., Name: {customer.Name}, Phone:{customer.Phone}, Email: {customer.Email}";
+            return View();
+
         }
     }
 }
