@@ -1,0 +1,17 @@
+E:\SampleEcommerceApp\Ecommerce.Repositories\bin\Debug\net7.0\Ecommerce.Repositories.deps.json
+E:\SampleEcommerceApp\Ecommerce.Repositories\bin\Debug\net7.0\Ecommerce.Repositories.dll
+E:\SampleEcommerceApp\Ecommerce.Repositories\bin\Debug\net7.0\Ecommerce.Repositories.pdb
+E:\SampleEcommerceApp\Ecommerce.Repositories\bin\Debug\net7.0\Ecommerce.Database.dll
+E:\SampleEcommerceApp\Ecommerce.Repositories\bin\Debug\net7.0\Ecommerce.Models.dll
+E:\SampleEcommerceApp\Ecommerce.Repositories\bin\Debug\net7.0\Ecommerce.Database.pdb
+E:\SampleEcommerceApp\Ecommerce.Repositories\bin\Debug\net7.0\Ecommerce.Models.pdb
+E:\SampleEcommerceApp\Ecommerce.Repositories\obj\Debug\net7.0\Ecommerce.Repositories.csproj.AssemblyReference.cache
+E:\SampleEcommerceApp\Ecommerce.Repositories\obj\Debug\net7.0\Ecommerce.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+E:\SampleEcommerceApp\Ecommerce.Repositories\obj\Debug\net7.0\Ecommerce.Repositories.AssemblyInfoInputs.cache
+E:\SampleEcommerceApp\Ecommerce.Repositories\obj\Debug\net7.0\Ecommerce.Repositories.AssemblyInfo.cs
+E:\SampleEcommerceApp\Ecommerce.Repositories\obj\Debug\net7.0\Ecommerce.Repositories.csproj.CoreCompileInputs.cache
+E:\SampleEcommerceApp\Ecommerce.Repositories\obj\Debug\net7.0\Ecommerce.Repositories.csproj.CopyComplete
+E:\SampleEcommerceApp\Ecommerce.Repositories\obj\Debug\net7.0\Ecommerce.Repositories.dll
+E:\SampleEcommerceApp\Ecommerce.Repositories\obj\Debug\net7.0\refint\Ecommerce.Repositories.dll
+E:\SampleEcommerceApp\Ecommerce.Repositories\obj\Debug\net7.0\Ecommerce.Repositories.pdb
+E:\SampleEcommerceApp\Ecommerce.Repositories\obj\Debug\net7.0\ref\Ecommerce.Repositories.dll
