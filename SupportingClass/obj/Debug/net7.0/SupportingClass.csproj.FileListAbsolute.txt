@@ -1,0 +1,12 @@
+E:\SampleEcommerceApp\SupportingClass\bin\Debug\net7.0\SupportingClass.deps.json
+E:\SampleEcommerceApp\SupportingClass\bin\Debug\net7.0\SupportingClass.dll
+E:\SampleEcommerceApp\SupportingClass\bin\Debug\net7.0\SupportingClass.pdb
+E:\SampleEcommerceApp\SupportingClass\obj\Debug\net7.0\SupportingClass.csproj.AssemblyReference.cache
+E:\SampleEcommerceApp\SupportingClass\obj\Debug\net7.0\SupportingClass.GeneratedMSBuildEditorConfig.editorconfig
+E:\SampleEcommerceApp\SupportingClass\obj\Debug\net7.0\SupportingClass.AssemblyInfoInputs.cache
+E:\SampleEcommerceApp\SupportingClass\obj\Debug\net7.0\SupportingClass.AssemblyInfo.cs
+E:\SampleEcommerceApp\SupportingClass\obj\Debug\net7.0\SupportingClass.csproj.CoreCompileInputs.cache
+E:\SampleEcommerceApp\SupportingClass\obj\Debug\net7.0\SupportingClass.dll
+E:\SampleEcommerceApp\SupportingClass\obj\Debug\net7.0\refint\SupportingClass.dll
+E:\SampleEcommerceApp\SupportingClass\obj\Debug\net7.0\SupportingClass.pdb
+E:\SampleEcommerceApp\SupportingClass\obj\Debug\net7.0\ref\SupportingClass.dll

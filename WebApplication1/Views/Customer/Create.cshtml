@@ -1,4 +1,15 @@
-﻿@model CustomerCreate
+﻿@using SupportingClass;
+@model CustomerCreate
+
+
+@{
+    DateTimeFormatter _datetime = new DateTimeFormatter();
+    string time = _datetime.ConvertTime("22:45", "EN");
+
+    string date = _datetime.ConvertDate((DateTime.Now).ToString(), "EN");
+}
+
+<p>@date, @time</p>
 
 <form method="post">
     <div class="form-group">

@@ -11,7 +11,8 @@
           "Ecommerce.Database": "1.0.0",
           "Ecommerce.Models": "1.0.0",
           "Ecommerce.Repositories": "1.0.0",
-          "Microsoft.EntityFrameworkCore.Design": "7.0.7"
+          "Microsoft.EntityFrameworkCore.Design": "7.0.7",
+          "SupportingClass": "1.0.0"
         },
         "runtime": {
           "WebApplication1.dll": {}
@@ -630,6 +631,11 @@
         "runtime": {
           "Ecommerce.Repositories.dll": {}
         }
+      },
+      "SupportingClass/1.0.0": {
+        "runtime": {
+          "SupportingClass.dll": {}
+        }
       }
     }
   },
@@ -1112,6 +1118,11 @@
       "sha512": ""
     },
     "Ecommerce.Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SupportingClass/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -10,12 +10,15 @@ namespace Ecommerce.Database
 {
     public class ApplicationDbContext : DbContext
     {
+        public ApplicationDbContext(DbContextOptions options) : base(options)
+        {
+
+        }
         public DbSet<Customer> Customers { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string connectionString = "Server=IT-TAMIM; Database=SampleCommerceDB; Trusted_Connection=True; TrustServerCertificate=True;";
-            optionsBuilder.UseSqlServer(connectionString);
+            
         }
     }
 }

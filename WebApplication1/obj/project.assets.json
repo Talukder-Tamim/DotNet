@@ -1157,6 +1157,16 @@
         "runtime": {
           "bin/placeholder/Ecommerce.Repositories.dll": {}
         }
+      },
+      "SupportingClass/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/SupportingClass.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SupportingClass.dll": {}
+        }
       }
     }
   },
@@ -3467,6 +3477,11 @@
       "type": "project",
       "path": "../Ecommerce.Repositories/Ecommerce.Repositories.csproj",
       "msbuildProject": "../Ecommerce.Repositories/Ecommerce.Repositories.csproj"
+    },
+    "SupportingClass/1.0.0": {
+      "type": "project",
+      "path": "../SupportingClass/SupportingClass.csproj",
+      "msbuildProject": "../SupportingClass/SupportingClass.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3474,7 +3489,8 @@
       "Ecommerce.Database >= 1.0.0",
       "Ecommerce.Models >= 1.0.0",
       "Ecommerce.Repositories >= 1.0.0",
-      "Microsoft.EntityFrameworkCore.Design >= 7.0.7"
+      "Microsoft.EntityFrameworkCore.Design >= 7.0.7",
+      "SupportingClass >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3519,6 +3535,9 @@
             },
             "E:\\SampleEcommerceApp\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj": {
               "projectPath": "E:\\SampleEcommerceApp\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj"
+            },
+            "E:\\SampleEcommerceApp\\SupportingClass\\SupportingClass.csproj": {
+              "projectPath": "E:\\SampleEcommerceApp\\SupportingClass\\SupportingClass.csproj"
             }
           }
         }

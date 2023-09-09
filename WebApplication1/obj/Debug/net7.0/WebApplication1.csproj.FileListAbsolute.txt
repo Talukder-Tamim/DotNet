@@ -79,3 +79,5 @@ E:\SampleEcommerceApp\WebApplication1\bin\Debug\net7.0\Ecommerce.Database.pdb
 E:\SampleEcommerceApp\WebApplication1\bin\Debug\net7.0\Ecommerce.Models.pdb
 E:\SampleEcommerceApp\WebApplication1\bin\Debug\net7.0\Ecommerce.Repositories.dll
 E:\SampleEcommerceApp\WebApplication1\bin\Debug\net7.0\Ecommerce.Repositories.pdb
+E:\SampleEcommerceApp\WebApplication1\bin\Debug\net7.0\SupportingClass.dll
+E:\SampleEcommerceApp\WebApplication1\bin\Debug\net7.0\SupportingClass.pdb

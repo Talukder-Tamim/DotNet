@@ -17,6 +17,7 @@
     <ProjectReference Include="..\Ecommerce.Database\Ecommerce.Database.csproj" />
     <ProjectReference Include="..\Ecommerce.Models\Ecommerce.Models.csproj" />
     <ProjectReference Include="..\Ecommerce.Repositories\Ecommerce.Repositories.csproj" />
+    <ProjectReference Include="..\SupportingClass\SupportingClass.csproj" />
   </ItemGroup>
 
 </Project>

@@ -7,6 +7,6 @@
     "\\WebApplication1\\Views",
     "\\WebApplication1\\Views\\Customer"
   ],
-  "SelectedNode": "\\WebApplication1\\Controllers\\CustomerController.cs",
+  "SelectedNode": "\\WebApplication1\\Views\\Customer\\Create.cshtml",
   "PreviewInSolutionExplorer": false
 }

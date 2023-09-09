@@ -1,0 +1,62 @@
+﻿@using WebApplication1.Models.CustomerList;
+
+@model CustomerListViewModel;
+
+@{
+    int slNo = 1;
+}
+
+<table class="table">
+    <a asp-action="Create" class="btn btn-primary">Add New</a>
+    <br></br>
+
+    <form id="form" method="get">
+        <div class="form-group">
+            <label for="SearchText">Search Text</label>
+            <input type="text" id="SearchText" name="SearchText" placeholder="text..">
+        </div>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Name..">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Email..">
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" name="phone" placeholder="Phone..">
+        </div>
+        <input type="hidden" id="PageSize" name="PageSize" value="5">
+        <input type="hidden" id="CurrentPage" name="CurrentPage" value="1">
+        <input type="submit" value="Search">
+    </form>
+    
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Phone</th>
+            <th scope="col">Phone</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var customer in Model.customerList)
+        {
+            <tr>
+                <th scope="row">@(slNo++)</th>
+                <td>@customer.Name</td>
+                <td>@customer.Email</td>
+                <td>@customer.Phone</td>
+                <td>
+                    <a class="btn btn-success" asp-action="Edit" asp-route-id="@customer.Id">Edit</a>
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@customer.Id">Delete</a>
+                    <a class="btn btn-info" asp-action="View" asp-route-id="@customer.Id">View</a>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+    
+</table>
