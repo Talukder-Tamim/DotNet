@@ -1,7 +1,6 @@
 E:\SampleEcommerceApp\Ecommerce.Models\bin\Debug\net7.0\Ecommerce.Models.deps.json
 E:\SampleEcommerceApp\Ecommerce.Models\bin\Debug\net7.0\Ecommerce.Models.dll
 E:\SampleEcommerceApp\Ecommerce.Models\bin\Debug\net7.0\Ecommerce.Models.pdb
-E:\SampleEcommerceApp\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.csproj.AssemblyReference.cache
 E:\SampleEcommerceApp\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.GeneratedMSBuildEditorConfig.editorconfig
 E:\SampleEcommerceApp\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.AssemblyInfoInputs.cache
 E:\SampleEcommerceApp\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.AssemblyInfo.cs

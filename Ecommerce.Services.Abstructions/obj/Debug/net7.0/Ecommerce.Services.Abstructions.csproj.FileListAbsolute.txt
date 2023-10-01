@@ -1,0 +1,15 @@
+E:\SampleEcommerceApp\Ecommerce.Services.Abstructions\bin\Debug\net7.0\Ecommerce.Services.Abstructions.deps.json
+E:\SampleEcommerceApp\Ecommerce.Services.Abstructions\bin\Debug\net7.0\Ecommerce.Services.Abstructions.dll
+E:\SampleEcommerceApp\Ecommerce.Services.Abstructions\bin\Debug\net7.0\Ecommerce.Services.Abstructions.pdb
+E:\SampleEcommerceApp\Ecommerce.Services.Abstructions\bin\Debug\net7.0\Ecommerce.Models.dll
+E:\SampleEcommerceApp\Ecommerce.Services.Abstructions\bin\Debug\net7.0\Ecommerce.Models.pdb
+E:\SampleEcommerceApp\Ecommerce.Services.Abstructions\obj\Debug\net7.0\Ecommerce.Services.Abstructions.csproj.AssemblyReference.cache
+E:\SampleEcommerceApp\Ecommerce.Services.Abstructions\obj\Debug\net7.0\Ecommerce.Services.Abstructions.GeneratedMSBuildEditorConfig.editorconfig
+E:\SampleEcommerceApp\Ecommerce.Services.Abstructions\obj\Debug\net7.0\Ecommerce.Services.Abstructions.AssemblyInfoInputs.cache
+E:\SampleEcommerceApp\Ecommerce.Services.Abstructions\obj\Debug\net7.0\Ecommerce.Services.Abstructions.AssemblyInfo.cs
+E:\SampleEcommerceApp\Ecommerce.Services.Abstructions\obj\Debug\net7.0\Ecommerce.Services.Abstructions.csproj.CoreCompileInputs.cache
+E:\SampleEcommerceApp\Ecommerce.Services.Abstructions\obj\Debug\net7.0\Ecommerce.Services.Abstructions.csproj.CopyComplete
+E:\SampleEcommerceApp\Ecommerce.Services.Abstructions\obj\Debug\net7.0\Ecommerce.Services.Abstructions.dll
+E:\SampleEcommerceApp\Ecommerce.Services.Abstructions\obj\Debug\net7.0\refint\Ecommerce.Services.Abstructions.dll
+E:\SampleEcommerceApp\Ecommerce.Services.Abstructions\obj\Debug\net7.0\Ecommerce.Services.Abstructions.pdb
+E:\SampleEcommerceApp\Ecommerce.Services.Abstructions\obj\Debug\net7.0\ref\Ecommerce.Services.Abstructions.dll

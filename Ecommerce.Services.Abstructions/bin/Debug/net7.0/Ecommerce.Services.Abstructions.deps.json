@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Ecommerce.Services.Abstructions/1.0.0": {
+        "dependencies": {
+          "Ecommerce.Models": "1.0.0"
+        },
+        "runtime": {
+          "Ecommerce.Services.Abstructions.dll": {}
+        }
+      },
+      "Ecommerce.Models/1.0.0": {
+        "runtime": {
+          "Ecommerce.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ecommerce.Services.Abstructions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ecommerce.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

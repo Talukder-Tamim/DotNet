@@ -1,7 +1,9 @@
-﻿using Ecommerce.Models.EntityModels;
+﻿using AutoMapper;
+using Ecommerce.Models.EntityModels;
 using Ecommerce.Models.UtilityModel;
 using Ecommerce.Repositories;
 using Ecommerce.Repositories.Abstraction;
+using Ecommerce.Services.Abstructions.Customers;
 using Microsoft.AspNetCore.Mvc;
 using WebApplication1.Models;
 using WebApplication1.Models.CustomerList;
@@ -10,15 +12,17 @@ namespace WebApplication1.Controllers
 {
     public class CustomerController : Controller  
     {
-        ICustomerRepository _customerrepository;
+        ICustomerService _customerService;
+        IMapper _mapper;
 
-        public CustomerController(ICustomerRepository _repo)
+        public CustomerController(ICustomerService _repo, IMapper mapper)
         {
-            _customerrepository = _repo;
+            _customerService = _repo;
+            _mapper = mapper;
         }
         public IActionResult Index(CustomerSearchCriteria customer)
         {
-            var customerList = _customerrepository.Search(customer);
+            var customerList = _customerService.Search(customer);
             ICollection<CustomerListItem> customerModel = customerList.Select(c => new CustomerListItem
             {
                 Id = c.Id,
@@ -43,14 +47,15 @@ namespace WebApplication1.Controllers
         {
             if (ModelState.IsValid)
             {
-                var customer = new Customer() { 
-                    Name = model.Name,
-                    Email = model.Email,
-                    Phone = model.Phone
-                };
+                var customer = _mapper.Map<Customer>(model);
+                //var customer = new Customer() { 
+                //    Name = model.Name,
+                //    Email = model.Email,
+                //    Phone = model.Phone
+                //};
 
                 //DB Operation
-                bool isSuccess = _customerrepository.Add(customer);
+                bool isSuccess = _customerService.Add(customer);
                 
                 if (isSuccess)
                 {
@@ -65,7 +70,7 @@ namespace WebApplication1.Controllers
         {
             if (id != null)
             {
-                var customer = _customerrepository.GetByID((int)id);
+                var customer = _customerService.GetByID((int)id);
                 var model = new CustomerEditViewModel()
                 {
                     Id = customer.Id,
@@ -87,7 +92,7 @@ namespace WebApplication1.Controllers
                 return View();
             }
             
-            var customer = _customerrepository.GetByID((int)id);
+            var customer = _customerService.GetByID((int)id);
 
             if (customer == null)
             {
@@ -113,7 +118,7 @@ namespace WebApplication1.Controllers
         {
             if (ModelState.IsValid)
             {
-                var customer = _customerrepository.GetByID(model.Id);
+                var customer = _customerService.GetByID(model.Id);
 
                 if (customer == null)
                 {
@@ -122,12 +127,13 @@ namespace WebApplication1.Controllers
                 }
                 else
                 {
-                    customer.Id = model.Id;
-                    customer.Name = model.Name;
-                    customer.Email = model.Email;
-                    customer.Phone = model.Phone;
+                    _mapper.Map(model, customer);
+                    //customer.Id = model.Id;
+                    //customer.Name = model.Name;
+                    //customer.Email = model.Email;
+                    //customer.Phone = model.Phone;
 
-                    bool isSuccess = _customerrepository.Update(customer);
+                    bool isSuccess = _customerService.Update(customer);
                     return RedirectToAction("Index");
                 }
             }
@@ -142,7 +148,7 @@ namespace WebApplication1.Controllers
         {
             if (id != null)
             {
-                bool isSuccess = _customerrepository.DeleteById((int)id);
+                bool isSuccess = _customerService.DeleteById((int)id);
                 if (isSuccess)
                 {
                     return RedirectToAction("index");

@@ -81,3 +81,11 @@ E:\SampleEcommerceApp\WebApplication1\bin\Debug\net7.0\Ecommerce.Repositories.dl
 E:\SampleEcommerceApp\WebApplication1\bin\Debug\net7.0\Ecommerce.Repositories.pdb
 E:\SampleEcommerceApp\WebApplication1\bin\Debug\net7.0\SupportingClass.dll
 E:\SampleEcommerceApp\WebApplication1\bin\Debug\net7.0\SupportingClass.pdb
+E:\SampleEcommerceApp\WebApplication1\bin\Debug\net7.0\Ecommerce.Services.Abstructions.dll
+E:\SampleEcommerceApp\WebApplication1\bin\Debug\net7.0\Ecommerce.Services.Abstructions.pdb
+E:\SampleEcommerceApp\WebApplication1\bin\Debug\net7.0\Ecommerce.Services.dll
+E:\SampleEcommerceApp\WebApplication1\bin\Debug\net7.0\Ecommerce.Services.pdb
+E:\SampleEcommerceApp\WebApplication1\bin\Debug\net7.0\Ecommerce.Application.Configurations.dll
+E:\SampleEcommerceApp\WebApplication1\bin\Debug\net7.0\Ecommerce.Application.Configurations.pdb
+E:\SampleEcommerceApp\WebApplication1\bin\Debug\net7.0\AutoMapper.dll
+E:\SampleEcommerceApp\WebApplication1\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -11,7 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Database", "Ecomm
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Repositories", "Ecommerce.Repositories\Ecommerce.Repositories.csproj", "{D5A87F49-FEF9-4067-B749-4EA565D930B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupportingClass", "SupportingClass\SupportingClass.csproj", "{09007F3C-C1E6-481A-8DD7-1EB45CD0C12B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SupportingClass", "SupportingClass\SupportingClass.csproj", "{09007F3C-C1E6-481A-8DD7-1EB45CD0C12B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Services.Abstructions", "Ecommerce.Services.Abstructions\Ecommerce.Services.Abstructions.csproj", "{A7830D45-ADDE-4559-B494-4EE09A2598F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Services", "Ecommerce.Services\Ecommerce.Services.csproj", "{99BB2A59-401E-4B29-9FBF-6669CC93B5A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Application.Configurations", "Ecommerce.Application.Configurations\Ecommerce.Application.Configurations.csproj", "{15B9BF20-7B96-452D-A431-54E85E243519}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.API", "Ecommerce.API\Ecommerce.API.csproj", "{1430656D-EF0B-4EB4-95AB-82C390726CEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +47,22 @@ Global
 		{09007F3C-C1E6-481A-8DD7-1EB45CD0C12B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09007F3C-C1E6-481A-8DD7-1EB45CD0C12B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09007F3C-C1E6-481A-8DD7-1EB45CD0C12B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7830D45-ADDE-4559-B494-4EE09A2598F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7830D45-ADDE-4559-B494-4EE09A2598F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7830D45-ADDE-4559-B494-4EE09A2598F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7830D45-ADDE-4559-B494-4EE09A2598F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99BB2A59-401E-4B29-9FBF-6669CC93B5A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99BB2A59-401E-4B29-9FBF-6669CC93B5A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99BB2A59-401E-4B29-9FBF-6669CC93B5A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99BB2A59-401E-4B29-9FBF-6669CC93B5A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15B9BF20-7B96-452D-A431-54E85E243519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B9BF20-7B96-452D-A431-54E85E243519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B9BF20-7B96-452D-A431-54E85E243519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B9BF20-7B96-452D-A431-54E85E243519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1430656D-EF0B-4EB4-95AB-82C390726CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1430656D-EF0B-4EB4-95AB-82C390726CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1430656D-EF0B-4EB4-95AB-82C390726CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1430656D-EF0B-4EB4-95AB-82C390726CEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

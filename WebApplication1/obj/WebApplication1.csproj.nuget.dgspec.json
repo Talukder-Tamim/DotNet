@@ -4,6 +4,77 @@
     "E:\\SampleEcommerceApp\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
+    "E:\\SampleEcommerceApp\\Ecommerce.Application.Configurations\\Ecommerce.Application.Configurations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\SampleEcommerceApp\\Ecommerce.Application.Configurations\\Ecommerce.Application.Configurations.csproj",
+        "projectName": "Ecommerce.Application.Configurations",
+        "projectPath": "E:\\SampleEcommerceApp\\Ecommerce.Application.Configurations\\Ecommerce.Application.Configurations.csproj",
+        "packagesPath": "C:\\Users\\Tamim\\.nuget\\packages\\",
+        "outputPath": "E:\\SampleEcommerceApp\\Ecommerce.Application.Configurations\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tamim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\SampleEcommerceApp\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj": {
+                "projectPath": "E:\\SampleEcommerceApp\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj"
+              },
+              "E:\\SampleEcommerceApp\\Ecommerce.Services.Abstructions\\Ecommerce.Services.Abstructions.csproj": {
+                "projectPath": "E:\\SampleEcommerceApp\\Ecommerce.Services.Abstructions\\Ecommerce.Services.Abstructions.csproj"
+              },
+              "E:\\SampleEcommerceApp\\Ecommerce.Services\\Ecommerce.Services.csproj": {
+                "projectPath": "E:\\SampleEcommerceApp\\Ecommerce.Services\\Ecommerce.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "E:\\SampleEcommerceApp\\Ecommerce.Database\\Ecommerce.Database.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -13,12 +84,8 @@
         "packagesPath": "C:\\Users\\Tamim\\.nuget\\packages\\",
         "outputPath": "E:\\SampleEcommerceApp\\Ecommerce.Database\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Tamim\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +93,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -76,7 +142,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -89,12 +155,8 @@
         "packagesPath": "C:\\Users\\Tamim\\.nuget\\packages\\",
         "outputPath": "E:\\SampleEcommerceApp\\Ecommerce.Models\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Tamim\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -102,7 +164,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -136,7 +197,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -149,12 +210,8 @@
         "packagesPath": "C:\\Users\\Tamim\\.nuget\\packages\\",
         "outputPath": "E:\\SampleEcommerceApp\\Ecommerce.Repositories\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Tamim\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -162,7 +219,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -200,7 +256,128 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\SampleEcommerceApp\\Ecommerce.Services.Abstructions\\Ecommerce.Services.Abstructions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\SampleEcommerceApp\\Ecommerce.Services.Abstructions\\Ecommerce.Services.Abstructions.csproj",
+        "projectName": "Ecommerce.Services.Abstructions",
+        "projectPath": "E:\\SampleEcommerceApp\\Ecommerce.Services.Abstructions\\Ecommerce.Services.Abstructions.csproj",
+        "packagesPath": "C:\\Users\\Tamim\\.nuget\\packages\\",
+        "outputPath": "E:\\SampleEcommerceApp\\Ecommerce.Services.Abstructions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tamim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\SampleEcommerceApp\\Ecommerce.Models\\Ecommerce.Models.csproj": {
+                "projectPath": "E:\\SampleEcommerceApp\\Ecommerce.Models\\Ecommerce.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\SampleEcommerceApp\\Ecommerce.Services\\Ecommerce.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\SampleEcommerceApp\\Ecommerce.Services\\Ecommerce.Services.csproj",
+        "projectName": "Ecommerce.Services",
+        "projectPath": "E:\\SampleEcommerceApp\\Ecommerce.Services\\Ecommerce.Services.csproj",
+        "packagesPath": "C:\\Users\\Tamim\\.nuget\\packages\\",
+        "outputPath": "E:\\SampleEcommerceApp\\Ecommerce.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tamim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\SampleEcommerceApp\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj": {
+                "projectPath": "E:\\SampleEcommerceApp\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj"
+              },
+              "E:\\SampleEcommerceApp\\Ecommerce.Services.Abstructions\\Ecommerce.Services.Abstructions.csproj": {
+                "projectPath": "E:\\SampleEcommerceApp\\Ecommerce.Services.Abstructions\\Ecommerce.Services.Abstructions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -213,12 +390,8 @@
         "packagesPath": "C:\\Users\\Tamim\\.nuget\\packages\\",
         "outputPath": "E:\\SampleEcommerceApp\\SupportingClass\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Tamim\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -226,7 +399,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -260,7 +432,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -273,12 +445,8 @@
         "packagesPath": "C:\\Users\\Tamim\\.nuget\\packages\\",
         "outputPath": "E:\\SampleEcommerceApp\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Tamim\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -286,22 +454,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\SampleEcommerceApp\\Ecommerce.Database\\Ecommerce.Database.csproj": {
-                "projectPath": "E:\\SampleEcommerceApp\\Ecommerce.Database\\Ecommerce.Database.csproj"
+              "E:\\SampleEcommerceApp\\Ecommerce.Application.Configurations\\Ecommerce.Application.Configurations.csproj": {
+                "projectPath": "E:\\SampleEcommerceApp\\Ecommerce.Application.Configurations\\Ecommerce.Application.Configurations.csproj"
               },
-              "E:\\SampleEcommerceApp\\Ecommerce.Models\\Ecommerce.Models.csproj": {
-                "projectPath": "E:\\SampleEcommerceApp\\Ecommerce.Models\\Ecommerce.Models.csproj"
-              },
-              "E:\\SampleEcommerceApp\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj": {
-                "projectPath": "E:\\SampleEcommerceApp\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj"
+              "E:\\SampleEcommerceApp\\Ecommerce.Services.Abstructions\\Ecommerce.Services.Abstructions.csproj": {
+                "projectPath": "E:\\SampleEcommerceApp\\Ecommerce.Services.Abstructions\\Ecommerce.Services.Abstructions.csproj"
               },
               "E:\\SampleEcommerceApp\\SupportingClass\\SupportingClass.csproj": {
                 "projectPath": "E:\\SampleEcommerceApp\\SupportingClass\\SupportingClass.csproj"
@@ -319,6 +482,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -345,7 +516,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

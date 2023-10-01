@@ -1,3 +1,4 @@
+using Ecommerce.Application.Configurations;
 using Ecommerce.Database;
 using Ecommerce.Repositories;
 using Ecommerce.Repositories.Abstraction;
@@ -12,17 +13,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 //builder.Services.AddTransient<ICustomerRepository, CustomerRepository>();
-builder.Services.AddTransient<ICustomerRepository>(service =>
-{
-    var db = service.GetService<ApplicationDbContext>();
-    return new CustomerRepository(db);
-});
 
-builder.Services.AddDbContext<ApplicationDbContext>(option =>
-{
-    string connectionString = "Server=IT-TAMIM; Database=SampleCommerceDB; Trusted_Connection=True; TrustServerCertificate=True;";
-    option.UseSqlServer(connectionString);
-});
+DependencyConfigurations.Configure(builder.Services);
+
+builder.Services.AddAutoMapper(typeof(Program));
 
 var app = builder.Build();
 
