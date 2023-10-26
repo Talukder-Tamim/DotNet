@@ -14,10 +14,10 @@ namespace Ecommerce.Models.UtilityModel
             PageSize = 10;
         }
 
-        public string Name { get; set; }    
-        public string Phone {  get; set; }
-        public string Email { get; set; }
-        public string SearchText { get; set; }
+        public string? Name { get; set; }    
+        public string? Phone {  get; set; }
+        public string? Email { get; set; }
+        public string? SearchText { get; set; }
         public int CurrentPage { get; set; }
         public int PageSize { get; set; }
     }

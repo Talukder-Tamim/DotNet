@@ -5,6 +5,7 @@ using Ecommerce.Repositories;
 using Ecommerce.Repositories.Abstraction;
 using Ecommerce.Services.Abstructions.Customers;
 using Microsoft.AspNetCore.Mvc;
+using WebApplication1.Filters;
 using WebApplication1.Models;
 using WebApplication1.Models.CustomerList;
 
@@ -20,6 +21,8 @@ namespace WebApplication1.Controllers
             _customerService = _repo;
             _mapper = mapper;
         }
+
+        [SampleActionFilter]
         public IActionResult Index(CustomerSearchCriteria customer)
         {
             var customerList = _customerService.Search(customer);

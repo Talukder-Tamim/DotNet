@@ -86,3 +86,5 @@ E:\SampleEcommerceApp\Ecommerce.API\obj\Debug\net7.0\refint\Ecommerce.API.dll
 E:\SampleEcommerceApp\Ecommerce.API\obj\Debug\net7.0\Ecommerce.API.pdb
 E:\SampleEcommerceApp\Ecommerce.API\obj\Debug\net7.0\Ecommerce.API.genruntimeconfig.cache
 E:\SampleEcommerceApp\Ecommerce.API\obj\Debug\net7.0\ref\Ecommerce.API.dll
+E:\SampleEcommerceApp\Ecommerce.API\bin\Debug\net7.0\AutoMapper.dll
+E:\SampleEcommerceApp\Ecommerce.API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

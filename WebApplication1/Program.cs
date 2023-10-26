@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using System.Diagnostics;
+using WebApplication1.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,6 +31,8 @@ if (!app.Environment.IsDevelopment())
 
 
 //use, map, run
+
+app.UseException();
 
 app.Use(async (context, next) => 
 {

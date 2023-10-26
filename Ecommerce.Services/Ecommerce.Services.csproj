@@ -11,8 +11,4 @@
     <ProjectReference Include="..\Ecommerce.Services.Abstructions\Ecommerce.Services.Abstructions.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Products\" />
-  </ItemGroup>
-
 </Project>
