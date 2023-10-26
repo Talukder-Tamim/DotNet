@@ -27,6 +27,7 @@ namespace Ecommerce.Repositories
             return _db.SaveChanges() > 0;
         }
 
+
         public Customer GetByID(int id)
         {
             return _db.Customers.FirstOrDefault(c => c.Id == id);
