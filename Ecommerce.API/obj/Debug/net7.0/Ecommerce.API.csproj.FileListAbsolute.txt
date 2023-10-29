@@ -88,3 +88,10 @@ E:\SampleEcommerceApp\Ecommerce.API\obj\Debug\net7.0\Ecommerce.API.genruntimecon
 E:\SampleEcommerceApp\Ecommerce.API\obj\Debug\net7.0\ref\Ecommerce.API.dll
 E:\SampleEcommerceApp\Ecommerce.API\bin\Debug\net7.0\AutoMapper.dll
 E:\SampleEcommerceApp\Ecommerce.API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\SampleEcommerceApp\Ecommerce.API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\SampleEcommerceApp\Ecommerce.API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\SampleEcommerceApp\Ecommerce.API\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\SampleEcommerceApp\Ecommerce.API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+E:\SampleEcommerceApp\Ecommerce.API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+E:\SampleEcommerceApp\Ecommerce.API\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+E:\SampleEcommerceApp\Ecommerce.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

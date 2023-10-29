@@ -89,3 +89,10 @@ E:\SampleEcommerceApp\WebApplication1\bin\Debug\net7.0\Ecommerce.Application.Con
 E:\SampleEcommerceApp\WebApplication1\bin\Debug\net7.0\Ecommerce.Application.Configurations.pdb
 E:\SampleEcommerceApp\WebApplication1\bin\Debug\net7.0\AutoMapper.dll
 E:\SampleEcommerceApp\WebApplication1\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\SampleEcommerceApp\WebApplication1\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\SampleEcommerceApp\WebApplication1\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\SampleEcommerceApp\WebApplication1\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\SampleEcommerceApp\WebApplication1\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+E:\SampleEcommerceApp\WebApplication1\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+E:\SampleEcommerceApp\WebApplication1\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+E:\SampleEcommerceApp\WebApplication1\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

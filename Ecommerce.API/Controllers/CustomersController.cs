@@ -3,6 +3,7 @@ using Ecommerce.API.APIModels;
 using Ecommerce.Models.EntityModels;
 using Ecommerce.Models.UtilityModel;
 using Ecommerce.Services.Abstructions.Customers;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Identity.Client;
@@ -23,6 +24,7 @@ namespace Ecommerce.API.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public IActionResult Get([FromForm] CustomerSearchCriteria _customerSearch)
         {
             var customers = _customerService.Search(_customerSearch);

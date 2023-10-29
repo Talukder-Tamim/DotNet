@@ -5,6 +5,7 @@ using Ecommerce.Repositories;
 using Ecommerce.Repositories.Abstraction;
 using Ecommerce.Services.Abstructions.Customers;
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 using WebApplication1.Filters;
 using WebApplication1.Models;
 using WebApplication1.Models.CustomerList;
@@ -33,6 +34,8 @@ namespace WebApplication1.Controllers
                 Phone = c.Phone,
                 Email = c.Email
             }).ToList();
+
+            HttpContext.Session.SetString("customer", "customer123");
 
             var customerListModel = new CustomerListViewModel();
             customerListModel.customerList = customerModel;
@@ -71,6 +74,7 @@ namespace WebApplication1.Controllers
 
         public IActionResult View(int? id)
         {
+            Debug.WriteLine(HttpContext.Session.GetString("customer"));
             if (id != null)
             {
                 var customer = _customerService.GetByID((int)id);

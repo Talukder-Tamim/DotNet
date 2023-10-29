@@ -9,3 +9,4 @@ E:\SampleEcommerceApp\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.dll
 E:\SampleEcommerceApp\Ecommerce.Models\obj\Debug\net7.0\refint\Ecommerce.Models.dll
 E:\SampleEcommerceApp\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.pdb
 E:\SampleEcommerceApp\Ecommerce.Models\obj\Debug\net7.0\ref\Ecommerce.Models.dll
+E:\SampleEcommerceApp\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.csproj.AssemblyReference.cache

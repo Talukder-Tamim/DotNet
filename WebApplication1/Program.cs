@@ -2,10 +2,12 @@ using Ecommerce.Application.Configurations;
 using Ecommerce.Database;
 using Ecommerce.Repositories;
 using Ecommerce.Repositories.Abstraction;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using System.Diagnostics;
+using System.Net;
 using WebApplication1.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,6 +20,25 @@ builder.Services.AddControllersWithViews();
 DependencyConfigurations.Configure(builder.Services);
 
 builder.Services.AddAutoMapper(typeof(Program));
+
+//builder.Services.AddDistributedMemoryCache();
+
+builder.Services.AddSession(options =>
+{
+    options.Cookie.Name = ".EcommerceApp.Session";
+    options.IdleTimeout = TimeSpan.FromMinutes(10);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
+
+
+builder.Services.AddAuthentication("Cookies")
+    .AddCookie("Cookies", options =>
+    {
+        options.AccessDeniedPath = null;
+        options.LogoutPath = null;
+
+    });
 
 var app = builder.Build();
 
@@ -57,12 +78,16 @@ app.Use(async (context, next) =>
 
 
 app.UseHttpsRedirection();
+
 app.UseStaticFiles();
 
 app.UseRouting();
 
 app.UseAuthentication();
+
 app.UseAuthorization();
+
+app.UseSession();
 
 app.MapControllerRoute(
     name: "default",
