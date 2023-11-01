@@ -12,6 +12,7 @@ namespace Ecommerce.API.Controllers
 {
     [Route("api/customers")]
     [ApiController]
+    [Authorize]
     public class CustomersController : ControllerBase
     {
         ICustomerService _customerService;
@@ -24,7 +25,6 @@ namespace Ecommerce.API.Controllers
         }
 
         [HttpGet]
-        [Authorize]
         public IActionResult Get([FromForm] CustomerSearchCriteria _customerSearch)
         {
             var customers = _customerService.Search(_customerSearch);

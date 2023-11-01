@@ -95,3 +95,6 @@ E:\SampleEcommerceApp\Ecommerce.API\bin\Debug\net7.0\Microsoft.Extensions.Identi
 E:\SampleEcommerceApp\Ecommerce.API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
 E:\SampleEcommerceApp\Ecommerce.API\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 E:\SampleEcommerceApp\Ecommerce.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\SampleEcommerceApp\Ecommerce.API\bin\Debug\net7.0\AWSSDK.dll
+E:\SampleEcommerceApp\Ecommerce.API\bin\Debug\net7.0\StructureMap.dll
+E:\SampleEcommerceApp\Ecommerce.API\bin\Debug\net7.0\Newtonsoft.Json.dll

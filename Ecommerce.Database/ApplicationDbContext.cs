@@ -1,4 +1,5 @@
-﻿using Ecommerce.Models.EntityModels;
+﻿using Ecommerce.Models.AuthModels;
+using Ecommerce.Models.EntityModels;
 using Ecommerce.Models.IdentityModels;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -10,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Ecommerce.Database
 {
-    public class ApplicationDbContext : IdentityDbContext<AppUser, AppRole, int>
+    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext(DbContextOptions options) : base(options)
         {

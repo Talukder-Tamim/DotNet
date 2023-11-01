@@ -3,6 +3,8 @@ using Ecommerce.Repositories;
 using Ecommerce.Repositories.Abstraction;
 using Ecommerce.Services.Abstructions.Customers;
 using Ecommerce.Services.Customers;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authorization.Policy;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System;
