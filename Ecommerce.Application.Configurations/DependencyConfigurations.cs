@@ -27,6 +27,7 @@ namespace Ecommerce.Application.Configurations
             });
 
             services.AddTransient<ICustomerService, CustomerService>();
+            services.AddHttpClient();
 
             services.AddDbContext<ApplicationDbContext>(option =>
             {
