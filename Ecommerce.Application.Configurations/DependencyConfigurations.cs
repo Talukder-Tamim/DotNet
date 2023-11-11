@@ -31,7 +31,7 @@ namespace Ecommerce.Application.Configurations
 
             services.AddDbContext<ApplicationDbContext>(option =>
             {
-                string connectionString = "Server=IT-TAMIM; Database=SampleCommerceDB; Trusted_Connection=True; TrustServerCertificate=True;";
+                string connectionString = "Server=DESKTOP-SCKABHO; Database=SampleCommerceDB; Trusted_Connection=True; TrustServerCertificate=True;";
                 option.UseSqlServer(connectionString);
             });
         }

@@ -10,3 +10,15 @@ E:\SampleEcommerceApp\Ecommerce.Models\obj\Debug\net7.0\refint\Ecommerce.Models.
 E:\SampleEcommerceApp\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.pdb
 E:\SampleEcommerceApp\Ecommerce.Models\obj\Debug\net7.0\ref\Ecommerce.Models.dll
 E:\SampleEcommerceApp\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\DotNet\Ecommerce.Models\bin\Debug\net7.0\Ecommerce.Models.deps.json
+C:\Users\User\Source\Repos\DotNet\Ecommerce.Models\bin\Debug\net7.0\Ecommerce.Models.dll
+C:\Users\User\Source\Repos\DotNet\Ecommerce.Models\bin\Debug\net7.0\Ecommerce.Models.pdb
+C:\Users\User\Source\Repos\DotNet\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\DotNet\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Source\Repos\DotNet\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.AssemblyInfoInputs.cache
+C:\Users\User\Source\Repos\DotNet\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.AssemblyInfo.cs
+C:\Users\User\Source\Repos\DotNet\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\DotNet\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.dll
+C:\Users\User\Source\Repos\DotNet\Ecommerce.Models\obj\Debug\net7.0\refint\Ecommerce.Models.dll
+C:\Users\User\Source\Repos\DotNet\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.pdb
+C:\Users\User\Source\Repos\DotNet\Ecommerce.Models\obj\Debug\net7.0\ref\Ecommerce.Models.dll

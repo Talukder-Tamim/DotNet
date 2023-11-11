@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Identity.Client;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -26,41 +27,62 @@ namespace Ecommerce.API.Controllers
     {
         ICustomerService _customerService;
         IMapper _mapper;
-        IHttpClientFactory _clientFactory;
         HttpClient _client;
+        private readonly IMemoryCache _memoryCache;
 
-        public CustomersController(ICustomerService customerService, IMapper mapper, IHttpClientFactory clientFactory, HttpClient client)
+        public CustomersController(ICustomerService customerService, IMapper mapper, HttpClient client, IMemoryCache memoryCache)
         {
             _customerService = customerService;
             _mapper = mapper;
-            _clientFactory = clientFactory;
             _client = client;
+            _memoryCache = memoryCache;
         }
 
         [HttpGet]
         public IActionResult Get([FromForm] CustomerSearchCriteria _customerSearch)
         {
-            var customers = _customerService.Search(_customerSearch);
+            var cacheKey = "customerList";
 
-            if (customers == null)
+            if (!_memoryCache.TryGetValue(cacheKey, out List<Customer> customerList))
             {
-                var responseObj = new
+                customerList = (List<Customer>?)_customerService.Search(_customerSearch);
+
+                var cacheExpiryOptions = new MemoryCacheEntryOptions
                 {
-                    statusCode = 404,
-                    errorMessage = "Not found"
+                    AbsoluteExpiration = DateTime.Now.AddSeconds(50),
+                    Priority = CacheItemPriority.High,
+                    SlidingExpiration = TimeSpan.FromSeconds(20)
                 };
-                return NotFound(responseObj);
+                //setting cache entries
+                _memoryCache.Set(cacheKey, customerList, cacheExpiryOptions);
+
+                if (customerList == null)
+                {
+                    var responseObj = new
+                    {
+                        statusCode = 404,
+                        errorMessage = "Not found"
+                    };
+                    return NotFound(responseObj);
+                }
+                else
+                {
+                    var responseObj = new
+                    {
+                        statusCode = 200,
+                        errorMessage = "Success",
+                        customer = customerList
+                    };
+                    return Ok(responseObj);
+                }
             }
-            else
+            var responseObj1 = new
             {
-                var responseObj = new
-                {
-                    statusCode = 200,
-                    errorMessage = "Success",
-                    customer = customers
-                };
-                return Ok(responseObj);
-            }
+                statusCode = 200,
+                errorMessage = "Success",
+                customer = customerList
+            };
+            return Ok(responseObj1);
 
         }
 

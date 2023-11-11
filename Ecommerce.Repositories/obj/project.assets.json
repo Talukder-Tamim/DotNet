@@ -3390,19 +3390,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tamim\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\SampleEcommerceApp\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\DotNet\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj",
       "projectName": "Ecommerce.Repositories",
-      "projectPath": "E:\\SampleEcommerceApp\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj",
-      "packagesPath": "C:\\Users\\Tamim\\.nuget\\packages\\",
-      "outputPath": "E:\\SampleEcommerceApp\\Ecommerce.Repositories\\obj\\",
+      "projectPath": "C:\\Users\\User\\Source\\Repos\\DotNet\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Source\\Repos\\DotNet\\Ecommerce.Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Tamim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3416,8 +3416,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\SampleEcommerceApp\\Ecommerce.Database\\Ecommerce.Database.csproj": {
-              "projectPath": "E:\\SampleEcommerceApp\\Ecommerce.Database\\Ecommerce.Database.csproj"
+            "C:\\Users\\User\\Source\\Repos\\DotNet\\Ecommerce.Database\\Ecommerce.Database.csproj": {
+              "projectPath": "C:\\Users\\User\\Source\\Repos\\DotNet\\Ecommerce.Database\\Ecommerce.Database.csproj"
             }
           }
         }
@@ -3447,7 +3447,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

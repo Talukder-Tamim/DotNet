@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\SampleEcommerceApp\\Ecommerce.Services.Abstructions\\Ecommerce.Services.Abstructions.csproj": {}
+    "C:\\Users\\User\\Source\\Repos\\DotNet\\Ecommerce.Services.Abstructions\\Ecommerce.Services.Abstructions.csproj": {}
   },
   "projects": {
-    "E:\\SampleEcommerceApp\\Ecommerce.Models\\Ecommerce.Models.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\DotNet\\Ecommerce.Models\\Ecommerce.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SampleEcommerceApp\\Ecommerce.Models\\Ecommerce.Models.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\DotNet\\Ecommerce.Models\\Ecommerce.Models.csproj",
         "projectName": "Ecommerce.Models",
-        "projectPath": "E:\\SampleEcommerceApp\\Ecommerce.Models\\Ecommerce.Models.csproj",
-        "packagesPath": "C:\\Users\\Tamim\\.nuget\\packages\\",
-        "outputPath": "E:\\SampleEcommerceApp\\Ecommerce.Models\\obj\\",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\DotNet\\Ecommerce.Models\\Ecommerce.Models.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\DotNet\\Ecommerce.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tamim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,21 +61,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\SampleEcommerceApp\\Ecommerce.Services.Abstructions\\Ecommerce.Services.Abstructions.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\DotNet\\Ecommerce.Services.Abstructions\\Ecommerce.Services.Abstructions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SampleEcommerceApp\\Ecommerce.Services.Abstructions\\Ecommerce.Services.Abstructions.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\DotNet\\Ecommerce.Services.Abstructions\\Ecommerce.Services.Abstructions.csproj",
         "projectName": "Ecommerce.Services.Abstructions",
-        "projectPath": "E:\\SampleEcommerceApp\\Ecommerce.Services.Abstructions\\Ecommerce.Services.Abstructions.csproj",
-        "packagesPath": "C:\\Users\\Tamim\\.nuget\\packages\\",
-        "outputPath": "E:\\SampleEcommerceApp\\Ecommerce.Services.Abstructions\\obj\\",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\DotNet\\Ecommerce.Services.Abstructions\\Ecommerce.Services.Abstructions.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\DotNet\\Ecommerce.Services.Abstructions\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tamim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,8 +89,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\SampleEcommerceApp\\Ecommerce.Models\\Ecommerce.Models.csproj": {
-                "projectPath": "E:\\SampleEcommerceApp\\Ecommerce.Models\\Ecommerce.Models.csproj"
+              "C:\\Users\\User\\Source\\Repos\\DotNet\\Ecommerce.Models\\Ecommerce.Models.csproj": {
+                "projectPath": "C:\\Users\\User\\Source\\Repos\\DotNet\\Ecommerce.Models\\Ecommerce.Models.csproj"
               }
             }
           }
@@ -120,7 +120,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
